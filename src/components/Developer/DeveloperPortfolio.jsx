@@ -412,15 +412,10 @@ const ProjectsSection = () => (
                     ]}
                 />
                 <ProjectCard
-                    title="Bank Churn Prediction Model"
-                    description="A predictive model that analyzes customer data to forecast potential churn by identifying clients who are likely to leave the bank."
-                    technologies={['Scikit-learn', 'Supervised Learning', 'Random Forest', 'Python']}
+                    title="Control & DQ Framework"
+                    description="Streamline your data operations with this automated pipeline monitoring and data quality framework. It manages job execution, handles failure recovery, validates source data, and generates quality reports, ensuring your data is always reliable and accurate with minimal manual intervention."
+                    technologies={['Pyspark', 'Big Data', 'Control Framwork', 'DQ report']}
                     links={[
-                        {
-                            url: 'https://github.com/jagadeeshD3/Bank-churn-Prediction/tree/main',
-                            icon: Github,
-                            label: 'GitHub'
-                        }
                     ]}
                 />
                 {/* Add more ProjectCard components as needed */}
