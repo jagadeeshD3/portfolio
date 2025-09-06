@@ -401,7 +401,7 @@ const ProjectsSection = () => (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ProjectCard
                     title="ChainSafe"
-                    description="A tool for automatically adding optional chaining operators to JavaScript and TypeScript code. Helps prevent 'Cannot read property of undefined' errors."
+                    description="This project uses customer data and machine learning to build a predictive model that identifies clients at high risk of leaving the bank. By analyzing key factors like age and account balance, the model helps the bank create targeted strategies to improve customer retention."
                     technologies={['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'AST']}
                     links={[
                         {
