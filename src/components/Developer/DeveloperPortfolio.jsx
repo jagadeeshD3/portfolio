@@ -411,6 +411,18 @@ const ProjectsSection = () => (
                         }
                     ]}
                 />
+                <ProjectCard
+                    title="Bank Churn Prediction Model"
+                    description="A predictive model that analyzes customer data to forecast potential churn by identifying clients who are likely to leave the bank."
+                    technologies={['Scikit-learn', 'Supervised Learning', 'Random Forest', 'Python']}
+                    links={[
+                        {
+                            url: 'https://github.com/jagadeeshD3/Bank-churn-Prediction/tree/main',
+                            icon: Github,
+                            label: 'GitHub'
+                        }
+                    ]}
+                />
                 {/* Add more ProjectCard components as needed */}
             </div>
         </div>
