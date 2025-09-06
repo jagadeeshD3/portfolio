@@ -402,12 +402,22 @@ const ProjectsSection = () => (
                 <ProjectCard
                     title="Bank Churn Prediction Model"
                     description="A predictive model that analyzes customer data to forecast potential churn by identifying clients who are likely to leave the bank."
-                    technologies={['Scikit-learn', 'Model Evaluation', 'Supervised Learning', 'Decision Trees']}
+                    technologies={['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'AST']}
                     links={[
                         {
                             url: 'https://github.com/jagadeeshD3/Bank-churn-Prediction/tree/main',
                             icon: Github,
                             label: 'GitHub'
+                        },
+                        {
+                            url: '/chainsafe',
+                            icon: ExternalLink,
+                            label: 'Live Demo'
+                        },
+                        {
+                            url: 'https://www.npmjs.com/package/chainsafe',
+                            icon: Package,
+                            label: 'NPM'
                         }
                     ]}
                 />
